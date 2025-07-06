@@ -42,7 +42,7 @@ def speak(text):
 
 
 def aiProcess(command):
-    openai.api_key = "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"
+    openai.api_key = "Yours OWN API KEY"
 
     response = openai.ChatCompletion.create(
         model="gpt-4-turbo",
